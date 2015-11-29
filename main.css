@@ -1,0 +1,63 @@
+body, html{
+  width: 100%;
+  height: 100%;
+  /*background: #4E4E4E;*/
+  background-color: #ffffff;
+  position: static;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+body{
+  padding: 50px 0;
+  margin: 0; 
+}
+.div1{
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 118px;
+  width: 165px;
+}
+
+svg{
+  width: 100%;
+  height: 100%;
+  /*height: 264px;*/
+}
+
+path.filled{
+  fill-opacity:1;
+  transition: fill-opacity 1s ease-out;
+  -webkit-transition: fill-opacity 1s ease-out;
+  -moz-transition: fill-opacity 1s ease-out;
+  -ms-transition: fill-opacity 1s ease-out;
+}
+
+#draw{
+  height: 40px;
+  padding: 25px;
+  font-size: 20px;
+  line-height: 0px;
+  background: #3498db;
+  border: 0;
+  box-shadow: 0 4px 0 0 #2980b9, 0 7px 15px rgba(0,0,0,0.2);
+  color: white;
+  font-family: Roboto, Arial;
+  outline: transparent;
+  cursor: pointer;
+}
+
+#draw:hover{
+  background: #2E88C3;
+}
+
+#draw:active{
+  position: relative;
+  background: #0A6EB2;
+  top: 4px;
+  box-shadow: 0 0px 0 0 #2980b9, 0 3px 3px rgba(0,0,0,0.2);
+}
